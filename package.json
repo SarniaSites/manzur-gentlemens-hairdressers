@@ -1,0 +1,15 @@
+{
+  "name": "manzur-gentlemens-hairdressers",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Draft website for Manzur Gentlemens Hairdressers, Commercial Arcade, St Peter Port",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "@fontsource-variable/sofia-sans-extra-condensed": "^5.2.0",
+    "@fontsource-variable/onest": "^5.2.0"
+  }
+}
